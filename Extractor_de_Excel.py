@@ -66,7 +66,7 @@ def Ingresar():
                 for i in celda:
                     if i.isdigit():
                         cuit_cuil += i             
-                    hoja_1.cell(row=x,column=9).value = cuit_cuil
+                hoja_1.cell(row=x,column=9).value = cuit_cuil
 # Comparo el número extraído con el CUIT de la planilla de colegiados.
 # Si coinciden copio el número y nombre del colegiado.
                 for i in range(2, cantidad_de_filas_2):
